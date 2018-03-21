@@ -10,14 +10,6 @@ class Node
 end
 
 class LinkedList
-
-    def initialize val
-        # Initialize a new node at the head
-        @head = Node.new(val,nil)
-    end
-    
-    def add(value)
-        # Traverse to the end of the list
         # And insert a new node over there with the specified value
         current = @head
         while current.next_node != nil
@@ -26,7 +18,10 @@ class LinkedList
         current.next_node = Node.new(value,nil)
         self    
     end
-
+agadgag
+adgvdav
+sdbvsdxv
+sdbvsdxv
     def delete(val)
         current = @head
         if current.value == val
