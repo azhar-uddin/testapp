@@ -1,24 +1,15 @@
 =begin
-class Hash
-
+class Ha
     attr_accessor :value, :next_node
-
-    def initialize
-        @val = value
-        @next_nodex = next_node
-        puts "Initialized a Node with value:  " + value.to_s 
-    end
-
-    def self.attr
-
-    end
 
     x= Hash.new
     x.value = "Azhar"
     x.next_node = 2
     puts x
 end
-
+asfasgas
+aasgasgas
+agagasf
 
 
 # String is already the parent class
